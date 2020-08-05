@@ -221,6 +221,32 @@ img {
   color: #fff;
 }
 
+.social-icons-home {
+  margin: 0;
+  padding: 0;
+}
+.social-icons-home li {
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+}
+.social-icons-home li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  -webkit-transition: ease all 0.3s;
+     -moz-transition: ease all 0.3s;
+       -o-transition: ease all 0.3s;
+          transition: ease all 0.3s;
+}
+.social-icons-home li a:hover {
+  background: #333;
+  color: #fff;
+}
 /*---------------------------------
 * 03. Section title
 -----------------------------------*/
